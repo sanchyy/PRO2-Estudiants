@@ -1,0 +1,160 @@
+Hi ha 5 places disponibles per al curs de reavaluacio.
+
+Conjunt:
+136: NP
+
+Admesos al curs de reavaluacio: 0
+
+No hi ha estudiants admesos
+
+Conjunt:
+130: nota 9.5
+136: NP
+
+Admesos al curs de reavaluacio: 0
+
+No hi ha estudiants admesos
+
+Conjunt:
+125: nota 4.5, reavaluacio
+130: nota 9.5
+136: NP
+
+Admesos al curs de reavaluacio: 1
+
+Admes amb nota i DNI mes petits: 125
+
+L'estudiant 136 ja hi era
+
+Conjunt:
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+
+Admesos al curs de reavaluacio: 2
+
+Admes amb nota i DNI mes petits: 125
+
+Conjunt:
+105: nota 4, reavaluacio
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+
+Admesos al curs de reavaluacio: 3
+
+Admes amb nota i DNI mes petits: 105
+
+Conjunt:
+105: nota 4, reavaluacio
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+165: nota 5
+
+Admesos al curs de reavaluacio: 3
+
+Admes amb nota i DNI mes petits: 105
+
+Conjunt:
+105: nota 4, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+165: nota 5
+
+Admesos al curs de reavaluacio: 3
+
+Admes amb nota i DNI mes petits: 105
+
+Conjunt:
+105: nota 4, reavaluacio
+114: nota 4.75, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+165: nota 5
+
+Admesos al curs de reavaluacio: 4
+
+Admes amb nota i DNI mes petits: 105
+
+L'estudiant amb DNI 100 no hi es
+
+Conjunt:
+105: nota 4, reavaluacio
+114: nota 4.75, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+140: nota 8.5
+165: nota 5
+
+Admesos al curs de reavaluacio: 4
+
+Admes amb nota i DNI mes petits: 105
+
+Conjunt:
+105: nota 4, reavaluacio
+114: nota 4.75, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+139: nota 4.8, reavaluacio
+140: nota 8.5
+165: nota 5
+
+Admesos al curs de reavaluacio: 5
+
+Admes amb nota i DNI mes petits: 105
+
+Conjunt:
+105: nota 4
+114: nota 4.75, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+139: nota 4.8, reavaluacio
+140: nota 8.5
+145: nota 4.15, reavaluacio
+165: nota 5
+
+Admesos al curs de reavaluacio: 5
+
+Admes amb nota i DNI mes petits: 145
+
+Estudiant 139: nota 4.8, reavaluacio
+
+Estudiant 140: nota 8.5
+
+Conjunt:
+105: nota 4
+110: nota 4.75, reavaluacio
+114: nota 4.75, reavaluacio
+115: nota 3.99
+125: nota 4.5, reavaluacio
+130: nota 9.5
+132: nota 4.5, reavaluacio
+136: NP
+139: nota 4.8, reavaluacio
+140: nota 8.5
+145: nota 4.15
+165: nota 5
+
+Admesos al curs de reavaluacio: 5
+
+Admes amb nota i DNI mes petits: 125
+

@@ -1,0 +1,135 @@
+Hi ha 5 beques disponibles per al conjunt
+
+Conjunt:
+100: nota 3.5
+102: nota 8.5, amb beca
+105: nota 4.5
+106: NP
+120: nota 9.5, amb beca
+130: nota 9.5, amb beca
+132: nota 7.5, amb beca
+135: nota 5.5
+136: NP
+145: nota 5.5
+152: nota 5.5, amb beca
+156: NP
+
+Millor candidat no becat 145
+
+Estudiants amb beca: 5
+
+Conjunt:
+100: nota 3.5
+102: nota 8.5, amb beca
+105: nota 4.5
+106: NP
+120: nota 9.5, amb beca
+130: nota 9.5, amb beca
+132: nota 7.5, amb beca
+135: nota 5.5
+136: NP
+145: nota 5.5, amb beca
+156: NP
+
+Millor candidat no becat 135
+
+Estudiants amb beca: 5
+
+L'estudiant amb DNI 152 no hi es
+
+Estudiants amb beca: 5
+
+Estudiant 130: nota 9.5, amb beca
+
+Estudiant 136: NP
+
+Conjunt:
+100: nota 3.5
+102: nota 8.5, amb beca
+105: nota 4.5
+106: NP
+130: nota 9.5, amb beca
+132: nota 7.5, amb beca
+135: nota 5.5, amb beca
+136: NP
+145: nota 5.5, amb beca
+156: NP
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 5
+
+Estudiant 145: nota 5.5, amb beca
+
+L'estudiant amb DNI 120 no hi es
+
+Estudiant 102: nota 8.5, amb beca
+
+Conjunt:
+100: nota 3.5
+102: nota 8.5, amb beca
+106: NP
+130: nota 9.5, amb beca
+132: nota 7.5, amb beca
+135: nota 5.5, amb beca
+136: NP
+145: nota 5.5, amb beca
+156: NP
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 5
+
+L'estudiant 102 no s'ha esborrat
+
+Conjunt:
+100: nota 3.5
+106: NP
+135: nota 5.5, amb beca
+136: NP
+145: nota 5.5, amb beca
+156: NP
+
+Estudiants amb beca: 2
+
+No hi ha candidats sense beca
+
+L'estudiant 152 no s'ha esborrat
+
+Conjunt:
+100: nota 3.5
+106: NP
+136: NP
+145: nota 5.5, amb beca
+156: NP
+
+Estudiants amb beca: 1
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 1
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 1
+
+No hi ha candidats sense beca
+
+Conjunt:
+136: NP
+156: NP
+
+Estudiants amb beca: 0
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 0
+
+No hi ha candidats sense beca
+
+Estudiants amb beca: 0
+
+No hi ha candidats sense beca
+
+Conjunt:
+

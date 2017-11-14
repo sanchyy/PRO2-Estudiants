@@ -1,0 +1,54 @@
+afegir 136 55
+escriure 
+admesos  
+posicio
+afegir 130 9.5
+escriure 
+admesos  
+posicio
+afegir 125 4.5
+escriure 
+admesos  
+posicio
+afegir 132 4.5
+afegir 136 5.5
+escriure 
+admesos  
+posicio 
+afegir 105 4.0
+escriure 
+admesos  
+posicio
+afegir 165 5.0
+escriure 
+admesos  
+posicio
+afegir 115 3.99
+escriure 
+admesos  
+posicio
+afegir 114 4.75
+escriure 
+admesos  
+posicio
+consultar 100
+afegir 140 8.5
+escriure 
+admesos  
+posicio
+afegir 139 4.8
+escriure 
+admesos  
+posicio
+afegir 145 4.15
+escriure 
+admesos  
+posicio
+consultar 139
+consultar 140 
+afegir 110 4.75
+escriure 
+admesos  
+posicio
+adeu
+

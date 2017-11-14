@@ -1,0 +1,65 @@
+12 
+135 5.5
+130 9.5
+136 55
+132 7.5
+145 5.5
+120 9.5
+156 550
+102 8.5
+105 4.5
+100 3.5
+106 505
+152 5.5
+escriure 
+posicio
+becas
+esborrar 152
+escriure 
+posicio
+becas
+consultar 152
+becas
+consultar 130
+consultar 136
+esborrar 120
+escriure 
+posicio
+becas
+consultar 145 
+consultar 120
+consultar 102
+esborrar 105
+escriure 
+posicio
+becas
+esborrar 130
+esborrar 102
+esborrar 132
+esborrar 102
+escriure
+becas 
+posicio
+esborrar 135
+esborrar 152
+escriure
+becas 
+posicio
+esborrar 100
+becas 
+posicio
+esborrar 106
+becas 
+posicio
+esborrar 145
+escriure 
+becas 
+posicio
+esborrar 156
+becas 
+posicio
+esborrar 136
+becas 
+posicio
+escriure 
+adeu
