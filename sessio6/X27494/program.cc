@@ -1,55 +1,93 @@
 #include <iostream>
 #include <list>
 using namespace std;
-
+ 
 struct Parell {
   int cod_op;
-    //cod_op == -1 --> enter és vàlid
-    //cod_op == -2 --> invalides tots els cops que surt "enter"
-  int enter;
+  int num;
 };
-
-void eliminar_enter(list<Parell>& l, int a) {
-  list<Parell>::iterator it;
-  bool borrat =0;
-  for (it = l.begin(); it != l.end() and !borrat; ++it) if (it->enter == a) {
-    l.erase(it);
-    --it;
-    borrat = 1;
-  }
+ 
+void read (list < Parell > &l) {
+  Parell p;
+  cin >> p.cod_op>> p.num;
+  list < Parell >::iterator it = l.begin ();
+  while (p.cod_op != 0 and p.num != 0) {
+      l.insert (it, p);
+      cin >> p.cod_op >> p.num;
+    }
 }
-
-void cosa (list <Parell>& l) {
-  list<Parell>::iterator it = l.begin();
-  int min = it->enter;
-  int max = it->enter;
-  double mitjana = 0;
-  int n = 1;
-  for (it = l.begin(); it != l.end(); ++it) {
-    if (it->enter < min) min = it->enter;
-    if (it->enter > max) max = it->enter;
-    mitjana += it->enter;
-    ++n;
-  }
-  if (min == 0 and max == 0 and mitjana == 0) cout << '0' << endl;
-  else {
-    cout << min << ' ' << max << ' ';
-    if (n > 1) cout << mitjana/(n-1) << endl;
-    else cout << mitjana << endl;
-  }
+ 
+void borra(list <Parell> &l, int n, double &elem, double &suma) {
+  list < Parell >::iterator it;
+  bool done = false;
+  for (it = l.begin (); not done and it != l.end (); ++it)
+    {
+      Parell aux = *it;
+      if (aux.cod_op == -1 and aux.num == n)
+        {
+          it = l.erase (it);
+          --elem;
+          suma -= aux.num;
+          done = true;
+        }
+    }
 }
-
-int main() {
-  Parell a;
+ 
+void recalcula_maxmin (const list < Parell > &l, int &max, int &min) {
+  max = 0;
+  min = 9;
+  list < Parell >::const_iterator it;
+  bool hiha_valids = false;
+  for (it = l.begin (); it != l.end (); ++it)
+    {
+      Parell aux = *it;
+      if (aux.cod_op == -1)
+        {
+          if (max < aux.num)
+            max = aux.num;
+          if (min > aux.num)
+            min = aux.num;
+          hiha_valids = true;
+        }
+    }
+  if (not hiha_valids)
+    {
+      max = min = 0;
+    }
+}
+ 
+void solution (list < Parell > &l) {
+  list <Parell>::iterator it;
+  int min = 9, max = 0;
+  double suma = 0, elem = 0;
+  for (it = l.begin (); it != l.end (); ++it)
+    {
+      Parell aux = *it;
+      if (aux.cod_op == -1)
+        {
+          if (max < aux.num)
+            max = aux.num;
+          if (min > aux.num)
+            min = aux.num;
+          ++elem;
+          suma += aux.num;
+          cout << min << ' ' << max << ' ' << suma / elem << endl;
+        }
+      else
+        {
+          borra(l, aux.num, elem, suma);
+          if (max == aux.num or min == aux.num)
+            recalcula_maxmin (l, max, min);
+          if (max == 0 and min == 0)
+            cout << 0 << endl;
+          else
+            cout << min << ' ' << max << ' ' << suma / elem << endl;
+        }
+    }
+}
+ 
+int main () {
   list <Parell> l;
-  list<Parell>::iterator it = l.begin();
-  cin >> a.cod_op >> a.enter;
-  while (a.cod_op != 0 and a.enter != 0) {
-    if (a.cod_op == -1)
-      l.insert(it,a);
-    else if (a.cod_op == -2)
-      eliminar_enter(l,a.enter);
-    cosa(l);
-    cin >> a.cod_op >> a.enter;
-  }
+  read(l);
+  solution (l);
 }
