@@ -16,7 +16,5 @@ void trenat (Cua &c) {
 		node -> seguent = cnode;
 		if (auxnode != NULL)
 			cnode -> seguent = auxnode;
-		node = auxnode;
-		cnode = auxcnode;
 	}
 }
